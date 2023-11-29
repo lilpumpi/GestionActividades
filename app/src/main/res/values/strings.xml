@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Practica_5.4</string>
+    <string name="tv_lista">Lista Elementos</string>
+    <string name="bt_add">Añadir</string>
+    <string name="tv_nombre">Nombre</string>
+    <string name="et_nombre">Introduzca el nombre de la actividad</string>
+    <string name="tv_fechaCaducidad">Fecha Caducidad:</string>
+    <string name="tv_fechaDefecto">No hay fecha</string>
+    <string name="bt_fecha">Cambiar fecha</string>
+    <string name="bt_aceptar">Aceptar</string>
+    <string name="bt_cancelar">Cancelar</string>
+    <string name="tv_num">Num:</string>
+    <string name="main_menu_borrar">Borrar todo</string>
+    <string name="cntx_menu_borrar">Eliminar</string>
+    <string name="cntx_menu_editar">Editar</string>
+</resources>
