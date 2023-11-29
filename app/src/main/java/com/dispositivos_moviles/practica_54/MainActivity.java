@@ -90,6 +90,18 @@ public class MainActivity extends AppCompatActivity {
         AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
         Actividad actividad = actividades.get(info.position);
 
+        /* NO DETECTA LOS ID DEL MENU DENTRO DEL SWITCH
+        switch (item.getItemId()){
+            case R.id.context_editar:
+                lanzarModificarActivity(actividad);
+                break;
+
+            case R.id.context_eliminar:
+                borrarActividad(actividad);
+                break;
+        }
+        */
+
         if(R.id.context_editar == item.getItemId()){
             lanzarModificarActivity(actividad);
         } else if(R.id.context_eliminar == item.getItemId()){
